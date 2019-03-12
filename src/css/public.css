@@ -8,7 +8,7 @@
  footer, header,  menu, nav, section{ display: block;}
  html,body{ width: 100%; height: 100%; background: #f1f1f1;}
  html{ font-size: 100px;}
- body{ font-size: 16px;}
+ body{ font-size: 16px;margin:0!important;}
  /*body{ font-size: 0.16rem;}*/
  ul,ol,li{ list-style:none;}
  input,select,textarea{outline:none; resize: none;}
@@ -33,7 +33,7 @@
  .head-box .menu-nav-ico i{ font-size: 0.3rem; color:#fff; text-align:center; }
  .head-box .menu-nav-ico.active{ position: fixed; background: #FF9000; left: 2rem; }
  
- .head-box .logo-box{ float: left; width: 2rem; background: url(../assets/images/logo.png) no-repeat center center;}
+ .head-box .logo-box{ float: left; width: 2rem; /*background: url(../assets/images/logo.png) no-repeat center center;*/}
  .head-box .logo-box a{ display: block; height: 1rem;}
  .head-box .user-info{ float: right; padding-top: 0.3rem;}
  .head-box .user-info a{ display: block; color: #fff; text-align: center;}
